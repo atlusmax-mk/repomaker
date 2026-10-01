@@ -1,0 +1,5 @@
+node_modules/
+.ask/
+ask-states.json
+*.zip
+.env

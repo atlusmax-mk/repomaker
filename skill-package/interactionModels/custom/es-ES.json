@@ -1,0 +1,310 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "mi cine",
+      "intents": [
+        {
+          "name": "CarteleraIntent",
+          "samples": [
+            "qué películas hay",
+            "qué películas hay {fecha}",
+            "qué películas ponen",
+            "qué películas ponen {fecha}",
+            "qué echan",
+            "qué echan {fecha}",
+            "qué hay en cartelera",
+            "qué hay en cartelera {fecha}",
+            "la cartelera",
+            "dime la cartelera",
+            "dime la cartelera de {fecha}",
+            "cartelera de {fecha}",
+            "qué puedo ver",
+            "qué puedo ver {fecha}",
+            "qué películas se proyectan {fecha}",
+            "qué hay {fecha}",
+            "qué películas hay para {fecha}",
+            "estrenos",
+            "qué estrenos hay"
+          ],
+          "slots": [
+            {
+              "name": "fecha",
+              "type": "AMAZON.DATE"
+            }
+          ]
+        },
+        {
+          "name": "HorariosIntent",
+          "samples": [
+            "horarios",
+            "horarios de {pelicula}",
+            "horarios de {pelicula} {fecha}",
+            "los horarios de {pelicula}",
+            "dame los horarios",
+            "dame los horarios de {pelicula}",
+            "dime los horarios de {pelicula} para {fecha}",
+            "a qué hora ponen {pelicula}",
+            "a qué hora ponen {pelicula} {fecha}",
+            "a qué hora es {pelicula}",
+            "a qué hora echan {pelicula}",
+            "a qué hora echan {pelicula} {fecha}",
+            "cuándo ponen {pelicula}",
+            "cuándo echan {pelicula}",
+            "sesiones de {pelicula}",
+            "qué sesiones hay de {pelicula} {fecha}",
+            "a qué hora es",
+            "a qué hora la ponen",
+            "a qué hora la ponen {fecha}",
+            "horarios para {fecha}",
+            "y {fecha}"
+          ],
+          "slots": [
+            {
+              "name": "pelicula",
+              "type": "PELICULA"
+            },
+            {
+              "name": "fecha",
+              "type": "AMAZON.DATE"
+            }
+          ]
+        },
+        {
+          "name": "DetallesPeliculaIntent",
+          "samples": [
+            "detalles",
+            "detalles de {pelicula}",
+            "dame los detalles de {pelicula}",
+            "de qué trata {pelicula}",
+            "de qué va {pelicula}",
+            "de qué va",
+            "de qué trata",
+            "háblame de {pelicula}",
+            "información de {pelicula}",
+            "quién sale en {pelicula}",
+            "quién dirige {pelicula}",
+            "cuánto dura {pelicula}",
+            "sinopsis de {pelicula}",
+            "cuál es la sinopsis de {pelicula}",
+            "para qué edad es {pelicula}",
+            "cuéntame sobre {pelicula}",
+            "más información"
+          ],
+          "slots": [
+            {
+              "name": "pelicula",
+              "type": "PELICULA"
+            }
+          ]
+        },
+        {
+          "name": "ResenaPeliculaIntent",
+          "samples": [
+            "reseña",
+            "la reseña",
+            "reseña de {pelicula}",
+            "la reseña de {pelicula}",
+            "pon la reseña de {pelicula}",
+            "ponme la reseña de {pelicula}",
+            "quiero escuchar la reseña de {pelicula}",
+            "reproduce la reseña de {pelicula}",
+            "escuchar la reseña",
+            "crítica de {pelicula}",
+            "la crítica de {pelicula}",
+            "qué tal está {pelicula}",
+            "es buena {pelicula}",
+            "merece la pena {pelicula}",
+            "opinión sobre {pelicula}",
+            "qué nota tiene {pelicula}"
+          ],
+          "slots": [
+            {
+              "name": "pelicula",
+              "type": "PELICULA"
+            }
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StartOverIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PreviousIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.LoopOnIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.LoopOffIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ShuffleOnIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ShuffleOffIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "name": "PELICULA",
+          "values": [
+            {
+              "id": "el_ultimo_faro",
+              "name": {
+                "value": "El último faro",
+                "synonyms": [
+                  "el faro",
+                  "último faro"
+                ]
+              }
+            },
+            {
+              "id": "galaxia_rota",
+              "name": {
+                "value": "Galaxia rota",
+                "synonyms": [
+                  "galaxia",
+                  "la galaxia rota"
+                ]
+              }
+            },
+            {
+              "id": "risas_en_familia",
+              "name": {
+                "value": "Risas en familia",
+                "synonyms": [
+                  "risas",
+                  "la de las risas en familia"
+                ]
+              }
+            },
+            {
+              "id": "la_sombra_del_rio",
+              "name": {
+                "value": "La sombra del río",
+                "synonyms": [
+                  "la sombra",
+                  "sombra del río"
+                ]
+              }
+            },
+            {
+              "id": "pequenos_heroes",
+              "name": {
+                "value": "Pequeños héroes",
+                "synonyms": [
+                  "pequeños héroes",
+                  "los pequeños héroes",
+                  "héroes"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "HorariosIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "pelicula",
+              "type": "PELICULA",
+              "confirmationRequired": false,
+              "elicitationRequired": false,
+              "prompts": {}
+            },
+            {
+              "name": "fecha",
+              "type": "AMAZON.DATE",
+              "confirmationRequired": false,
+              "elicitationRequired": false,
+              "prompts": {}
+            }
+          ]
+        },
+        {
+          "name": "DetallesPeliculaIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "pelicula",
+              "type": "PELICULA",
+              "confirmationRequired": false,
+              "elicitationRequired": false,
+              "prompts": {}
+            }
+          ]
+        },
+        {
+          "name": "ResenaPeliculaIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "pelicula",
+              "type": "PELICULA",
+              "confirmationRequired": false,
+              "elicitationRequired": false,
+              "prompts": {}
+            }
+          ]
+        }
+      ],
+      "delegationStrategy": "SKILL_RESPONSE"
+    }
+  }
+}

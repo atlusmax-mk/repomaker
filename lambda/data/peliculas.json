@@ -1,0 +1,96 @@
+{
+  "cine": {
+    "nombre": "Mi Cine",
+    "zonaHoraria": "Europe/Madrid"
+  },
+  "peliculas": [
+    {
+      "id": "el_ultimo_faro",
+      "titulo": "El último faro",
+      "sinonimos": ["el faro", "último faro"],
+      "genero": "drama",
+      "duracionMin": 118,
+      "clasificacion": "No recomendada para menores de 12 años",
+      "director": "Lucía Ferrer",
+      "reparto": ["Marta Olmedo", "Andrés Vidal", "Irene Casas"],
+      "sinopsis": "Una farera solitaria en la costa gallega recibe la visita de un desconocido la noche del peor temporal en cien años.",
+      "valoracion": 4.5,
+      "resena": "Una película serena y poderosa. Marta Olmedo sostiene cada plano con una interpretación contenida, y la fotografía convierte el temporal en un personaje más. Imprescindible para quien busque un drama íntimo y bien construido.",
+      "resenaAudioUrl": null,
+      "sesiones": [
+        { "sala": "Sala 1", "dias": [1, 2, 3, 4, 5, 6, 0], "horas": ["16:30", "19:00", "21:45"] }
+      ]
+    },
+    {
+      "id": "galaxia_rota",
+      "titulo": "Galaxia rota",
+      "sinonimos": ["galaxia", "la galaxia rota"],
+      "genero": "ciencia ficción",
+      "duracionMin": 142,
+      "clasificacion": "No recomendada para menores de 12 años",
+      "director": "Samuel Ortega",
+      "reparto": ["Clara Méndez", "Hugo Llorente", "Nora Benet"],
+      "sinopsis": "La tripulación de una nave minera descubre que la grieta que amenaza su sistema solar no es un fenómeno natural.",
+      "valoracion": 4,
+      "resena": "Espectáculo visual de primer nivel con un guion más inteligente de lo habitual en el género. El tercer acto se alarga un poco, pero la banda sonora y los efectos justifican verla en pantalla grande.",
+      "resenaAudioUrl": null,
+      "sesiones": [
+        { "sala": "Sala 2", "dias": [1, 2, 3, 4], "horas": ["17:00", "20:30"] },
+        { "sala": "Sala 3", "dias": [5, 6, 0], "horas": ["16:00", "19:15", "22:30"] }
+      ]
+    },
+    {
+      "id": "risas_en_familia",
+      "titulo": "Risas en familia",
+      "sinonimos": ["risas", "la de las risas en familia"],
+      "genero": "comedia",
+      "duracionMin": 96,
+      "clasificacion": "Apta para todos los públicos",
+      "director": "Pablo Serrano",
+      "reparto": ["Rosa Delgado", "Javier Mora", "Lola Pineda"],
+      "sinopsis": "Tres generaciones de una familia se ven obligadas a compartir una caravana durante unas vacaciones que nadie quería.",
+      "valoracion": 3.5,
+      "resena": "Comedia ligera que funciona gracias a la química de su reparto. No reinventa nada, pero arranca carcajadas y deja buen sabor de boca. Ideal para ir con toda la familia.",
+      "resenaAudioUrl": null,
+      "sesiones": [
+        { "sala": "Sala 4", "dias": [1, 2, 3, 4, 5], "horas": ["18:00", "20:15"] },
+        { "sala": "Sala 4", "dias": [6, 0], "horas": ["12:00", "16:15", "18:30", "20:45"] }
+      ]
+    },
+    {
+      "id": "la_sombra_del_rio",
+      "titulo": "La sombra del río",
+      "sinonimos": ["la sombra", "sombra del río"],
+      "genero": "thriller",
+      "duracionMin": 124,
+      "clasificacion": "No recomendada para menores de 16 años",
+      "director": "Elena Ruiz",
+      "reparto": ["Tomás Cano", "Sara Quintana", "Diego Alba"],
+      "sinopsis": "Un inspector a punto de jubilarse reabre el caso de una desaparición en un pueblo del Ebro que todos prefieren olvidar.",
+      "valoracion": 4,
+      "resena": "Thriller rural con atmósfera densa y giros bien dosificados. Tomás Cano está magnífico como inspector cansado. Algún personaje secundario queda desdibujado, pero la tensión no decae.",
+      "resenaAudioUrl": null,
+      "sesiones": [
+        { "sala": "Sala 5", "dias": [3, 4, 5, 6], "horas": ["19:30", "22:15"] }
+      ]
+    },
+    {
+      "id": "pequenos_heroes",
+      "titulo": "Pequeños héroes",
+      "sinonimos": ["pequeños héroes", "los pequeños héroes", "héroes"],
+      "genero": "animación",
+      "duracionMin": 88,
+      "clasificacion": "Apta para todos los públicos",
+      "director": "Marina Soler",
+      "reparto": ["Voces de Alba Ríos", "Mario Gil"],
+      "sinopsis": "Un grupo de insectos de un huerto urbano se une para salvar su hogar de una excavadora.",
+      "valoracion": 3.5,
+      "resena": "Animación colorida y con mensaje ecológico que encantará a los más pequeños. Los adultos encontrarán algunos guiños simpáticos, aunque la historia es previsible.",
+      "resenaAudioUrl": null,
+      "sesiones": [
+        { "sala": "Sala 3", "dias": [1, 2, 3, 4], "horas": ["17:15"] },
+        { "sala": "Sala 1", "dias": [6, 0], "horas": ["11:30", "13:30"] }
+      ]
+    }
+  ]
+}
